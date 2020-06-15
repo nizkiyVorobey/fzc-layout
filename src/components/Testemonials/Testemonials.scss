@@ -1,0 +1,109 @@
+@import "../../constants/constatns.scss";
+
+.testemonials {
+    padding-top: 165px;
+    
+  &-head {
+    max-width: 362px;
+  }
+
+  &-title-text {
+    color: $light-blue-color;
+  }
+}
+
+.testemonials-card {
+  padding: 37px 32px;
+  max-width: 314px;
+  box-sizing: border-box;
+  box-shadow: 16px 16px 32px rgba(0, 0, 0, 0.05);
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+  margin: 0 39px;
+  margin-bottom: 50px;
+
+  &-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 86px;
+  }
+
+  &-image-wrapper {
+    position: relative;
+    margin: 0 62px;
+    height: 175px;
+  }
+
+  &-image {
+    position: absolute;
+    top: 54px;
+    left: 20px;
+  }
+
+  &-image-solid {
+    border-radius: 500px;
+    transform: rotate(-65deg) translateX(-18px) translateY(21px);
+    transform-origin: bottom center;
+    width: 161.9px;
+    height: 64px;
+
+    &-1 {
+      background: $blue-gradient;
+    }
+
+    &-2 {
+      background: $yellow-gradient;
+    }
+
+    &-3 {
+      background: $red-gradient;
+    }
+  }
+
+  &-text {
+    font-style: italic;
+    font-size: 14.4px;
+    text-align: center;
+    color: $light-black-color;
+    mix-blend-mode: normal;
+  }
+
+  &-line {
+    margin: 31px auto;
+    width: 64px;
+    height: 2px;
+    border-radius: 500px;
+
+    &-1 {
+      background: $blue-gradient;
+    }
+    &-2 {
+      background: $yellow-gradient;
+    }
+
+    &-3 {
+      background: $green-gradient;
+    }
+
+    &-4 {
+      background: $red-gradient;
+    }
+  }
+
+  &-name {
+    font-weight: bold;
+    text-align: center;
+    font-size: 12.6px;
+    color: $dark-color;
+  }
+
+  &-position {
+    font-weight: 800;
+    font-size: 12.6px;
+    text-align: center;
+    letter-spacing: 2px;
+    color: $light-blue-color;
+  }
+}

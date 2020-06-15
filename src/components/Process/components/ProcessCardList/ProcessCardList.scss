@@ -1,0 +1,126 @@
+@import "../../../../constants/constatns.scss";
+
+.process-card {
+  &-list {
+    display: flex;
+    justify-content: space-between;
+    max-width: 540px;
+    flex-wrap: wrap;
+  }
+
+  &-item-line {
+    border-radius: 500px;
+    position: absolute;
+    bottom: 0;
+    left: calc(50% - 8px);
+    transform: rotate(20deg);
+    transform-origin: center;
+    width: 16px;
+    height: 100%;
+    z-index: -1;
+  }
+  &-item-line-1 {
+    background: $blue-gradient;
+  }
+
+  &-item-line-2 {
+    background: $yellow-gradient;
+  }
+
+  &-item-line-3 {
+    background: $green-gradient;
+  }
+
+  &-item-line-4 {
+    background: $red-gradient;
+  }
+
+  &-item-wrapper {
+    max-width: 240px;
+    padding: 66.5px 0;
+    position: relative;
+    z-index: 1;
+  }
+
+  &-item-wrapper:nth-child(odd) {
+    transform: translateY(100px);
+  }
+
+  &-item {
+    max-width: 240px;
+    padding: 48px 32px;
+    background: #ffffff;
+    box-shadow: 16px 16px 16px rgba(0, 0, 0, 0.02);
+  }
+
+  &-text {
+    font-size: 12.6px;
+    line-height: 150%;
+    text-align: center;
+  }
+}
+
+.process-card-number {
+  font-family: "Muli";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 150%;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-top: -30px;
+
+  &-circle {
+    opacity: 0.1;
+  }
+
+  &-circle-1 {
+    background: $blue-circle-garient;
+  }
+
+  &-circle-2 {
+    background: $yellow-circle-garient;
+  }
+
+  &-circle-3 {
+    background: $green-circle-garient;
+  }
+
+  &-circle-4 {
+    background: $red-circle-garient;
+  }
+
+  &-1 {
+    color: $light-blue-color;
+  }
+  &-2 {
+    color: $light-yellow-color;
+  }
+  &-3 {
+    color: $light-green-color;
+  }
+  &-4 {
+    color: $light-red-color;
+  }
+
+  &-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 48px;
+    margin: auto;
+  }
+
+  &-circle {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .process-card-list {
+    display: block;
+  }
+}

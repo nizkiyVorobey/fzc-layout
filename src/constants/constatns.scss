@@ -1,0 +1,68 @@
+// Colors
+$light-blue-color: #56ccf2;
+$light-black-color: #253757;
+$light-dark-color: #334563;
+$light-yellow-color: #fcc304;
+$light-green-color: #03d542;
+$light-red-color: #f25656;
+$dark-color: #152032;
+$dark-blue-color: #2F80ED;
+
+// Gradients for square
+$blue-gradient: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.25) 0%,
+    rgba(255, 255, 255, 0) 100%
+  ),
+  $light-blue-color;
+
+$yellow-gradient: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.25) 0%,
+    rgba(255, 255, 255, 0) 100%
+  ),
+  $light-yellow-color;
+
+$green-gradient: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.25) 0%,
+    rgba(255, 255, 255, 0) 100%
+  ),
+  $light-green-color;
+
+$red-gradient: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.25) 0%,
+    rgba(255, 255, 255, 0) 100%
+  ),
+  $light-red-color;
+
+
+//   Crafients for circle
+$blue-circle-garient: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.25) 0%,
+    rgba(255, 255, 255, 0) 100%
+  ),
+  linear-gradient(0deg, $light-blue-color, $light-blue-color), #c4c4c4;
+
+$yellow-circle-garient: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.25) 0%,
+    rgba(255, 255, 255, 0) 100%
+  ),
+  $light-yellow-color;
+
+$red-circle-garient: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.25) 0%,
+    rgba(255, 255, 255, 0) 100%
+  ),
+  $light-red-color;
+
+$green-circle-garient: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.25) 0%,
+    rgba(255, 255, 255, 0) 100%
+  ),
+  linear-gradient(0deg, $light-green-color, $light-green-color), #c4c4c4;

@@ -1,0 +1,73 @@
+@import "../../constants/constatns.scss";
+
+.contacts {
+    max-width: 362px;
+
+    &-title {
+        margin-top: 19px;
+        margin-bottom: 43px;
+    }
+
+  &-text-title {
+    font-weight: 800;
+    font-size: 12.6px;
+    align-items: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: $light-dark-color;
+    margin-top: 41px;
+  }
+
+  &-text-description {
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 150%;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: $light-blue-color;
+  }
+
+  &-link-list {
+    margin-top: 53px;
+  }
+}
+
+.social-icon {
+  font-size: 32px;
+}
+
+.icon {
+  &-twitter {
+    color: #1DA1F2;
+  }
+
+  &-instagram {
+    color: #E1306C;
+  }
+
+  &-facebook {
+    color: #3B5998;
+  }
+}
+
+.icon-link:not(:last-child) {
+  margin-right: 48px;
+}
+
+@media screen and (max-width: 1270px) {
+  .contacts {
+    max-width: 656px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .contacts {
+    text-align: center;
+  }
+
+  .contacts>.title-of-block {
+    width: max-content;
+    margin: auto;
+  }
+}

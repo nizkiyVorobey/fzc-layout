@@ -1,0 +1,19 @@
+@import "../../../../constants/constatns.scss";
+
+.process-description {
+  max-width: 362px;
+
+  &-title-text {
+    margin-top: 19px;
+    font-weight: 900;
+  }
+
+  &-text {
+    margin-top: 64px;
+    color: $light-dark-color;
+  }
+
+  &-text-item {
+      margin: 24px 0;
+  }
+}

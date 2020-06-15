@@ -1,0 +1,55 @@
+@import "../../constants/constatns.scss";
+
+.field {
+  border: none;
+  border-bottom: 1px solid #e1e1e1;
+  padding: 18px;
+  outline: none;
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: transparent;
+  height: 50px;
+  box-sizing: border-box;
+  margin-top: 30px;
+
+  &::placeholder {
+    font-family: Muli;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14.4px;
+    line-height: 150%;
+    color: #152032;
+  }
+
+  &:focus {
+    border-bottom-color: orangered;
+    transition: 0.3s border-bottom-color ease-in-out;
+  }
+
+  &-list {
+    margin-top: 86px;
+  }
+}
+
+.form {
+    &-wrapper {
+        max-width: 656px;
+        width: 100%;
+        margin-right: 50px;
+    }
+
+    &-btn {
+        background-color: $dark-blue-color;
+        margin-top: 105px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+  .form {
+    &-btn {
+      margin: auto;
+      margin-top: 105px;
+    }
+  }
+}
